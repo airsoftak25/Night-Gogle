@@ -1,2 +1,2 @@
 # Description
-This folder will contains all KiCad project and DWG files
+This folder contains all KiCad project, libfiles and DWG files
