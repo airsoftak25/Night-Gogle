@@ -1,0 +1,162 @@
+(footprint "255SB (B1408) - Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>SLIDING SWITCH</b><p>distributor Buerklin, 11G810")
+	(property "Reference" "REF**"
+		(at -8.25 -3.3 0)
+		(layer "F.SilkS")
+		(uuid "0a46b6ae-569d-492d-a8d9-7515660de1b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "255SB - Vertical"
+		(at 0 -4.25 0)
+		(layer "F.Fab")
+		(uuid "efcf351f-4142-46a2-b450-3e6db187d836")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54897c83-7eb8-485c-8fa9-efa98f81db95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85af62cd-d9c5-4bdf-b64c-87b52a52a3b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.25 -3.3)
+		(end -8.25 11.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b8ca2c9-c760-4776-a4a4-6c523135c790")
+	)
+	(fp_line
+		(start -8.25 -3.3)
+		(end 8.25 -3.3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b2f9373-51fd-4520-b6b1-a231fc69bea8")
+	)
+	(fp_line
+		(start 8.25 11.25)
+		(end -8.25 11.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85410f93-3e13-416b-8b0e-d3552399171e")
+	)
+	(fp_line
+		(start 8.25 11.25)
+		(end 8.25 -3.3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac806000-dc1b-4fe1-952c-d9a14bf55835")
+	)
+	(fp_text user "2"
+		(at 4.191 2.794 0)
+		(layer "F.SilkS")
+		(uuid "5b36fa70-7b6c-4a6e-b0fc-a6b413b4ce21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -5.207 2.794 0)
+		(layer "F.SilkS")
+		(uuid "e415d190-45bd-4c8e-a6c0-4bae48ec9f2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.7 0)
+		(size 2.775 5.55)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "711899fe-4ab7-4f40-8f1c-a5a5d5a5765f")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 2.775 5.55)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3726186d-9038-4768-8564-197716ecee58")
+	)
+	(pad "3" thru_hole oval
+		(at 4.7 0)
+		(size 2.775 5.55)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d1d53351-c102-40bc-9095-e4fdaf2fefb6")
+	)
+	(pad "4" thru_hole circle
+		(at -6.605 9.53)
+		(size 2.775 2.775)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b4af0dc6-b378-4648-bb73-47900306771b")
+	)
+	(pad "5" thru_hole circle
+		(at 6.605 9.53)
+		(size 2.775 2.775)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "61e86c8a-cbd9-45ee-915b-f073abc64f09")
+	)
+	(embedded_fonts no)
+)

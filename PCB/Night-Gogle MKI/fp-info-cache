@@ -1,4 +1,4 @@
-25313769563149551
+25326000778944627
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69495,6 +69495,41 @@ threaded screw
 0
 4
 1
+N-G_ graphic
+BOYKISSER_IMG
+
+
+0
+0
+0
+N-G_ graphic
+CALIPER_IMG
+
+
+0
+0
+0
+N-G_ graphic
+OWO_IMG
+
+
+0
+0
+0
+N-G_ graphic
+SHIKANOKO_IMG
+
+
+0
+0
+0
+N-G_ graphic
+SPS_LOGO_IMG
+
+
+0
+0
+0
 N-G_board
 255SB
 <b>SLIDING SWITCH</b><p>distributor Buerklin, 11G810
@@ -69502,6 +69537,13 @@ N-G_board
 0
 3
 3
+N-G_board
+255SB (B1408) - Vertical
+<b>SLIDING SWITCH</b><p>distributor Buerklin, 11G810
+
+0
+5
+5
 N-G_board
 AMASS_XT30PW-M
 
@@ -69523,6 +69565,13 @@ Pad-3.5mm
 0
 1
 1
+N-G_board
+TD-03X
+
+
+0
+4
+2
 N-G_board
 TO220V
 

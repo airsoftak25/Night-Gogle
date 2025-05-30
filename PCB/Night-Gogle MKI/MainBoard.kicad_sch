@@ -414,6 +414,242 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "N-G:B1408"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "N-G_board:255SB (B1408) - Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "tactile switch B1408"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B1408_1_1"
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 194 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 2.54) (xy 1.27 2.54) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -2.54) (xy 1.27 -2.54) (xy 1.27 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "N-G:ESP32-CAM"
 			(pin_names
 				(offset 1.016)
@@ -886,7 +1122,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Pad1"
-				(at -0.254 1.778 0)
+				(at 0.508 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -945,14 +1181,96 @@
 				(pin input line
 					(at -1.27 0 0)
 					(length 2.54)
-					(name ""
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Pad-3.5mm_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Pad1"
+				(at 0.508 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "N-G_board:Pad-3.5mm"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pad-3.5mm_1_1_1"
+				(rectangle
+					(start 0.3175 0.9525)
+					(end 2.2225 -0.9525)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 132 0 0 1)
+					)
+				)
+				(pin input line
+					(at -1.27 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1466,6 +1784,30 @@
 		)
 	)
 	(rectangle
+		(start 233.68 13.97)
+		(end 283.21 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14f28d80-2cb8-45eb-ae54-d87cf82a6f0a)
+	)
+	(rectangle
+		(start 186.69 44.45)
+		(end 232.41 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a9c3b6c6-3a3c-4c7e-b57a-900a2d5e5ade)
+	)
+	(rectangle
 		(start 144.78 13.97)
 		(end 185.42 72.39)
 		(stroke
@@ -1479,7 +1821,7 @@
 	)
 	(rectangle
 		(start 186.69 13.97)
-		(end 232.41 72.39)
+		(end 232.41 43.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -1554,6 +1896,27 @@
 		)
 		(uuid "a7cd4d82-006b-436f-b090-4f19503e886a")
 	)
+	(text "Pad For soldering\nIR-Led on/off via wire"
+		(exclude_from_sim no)
+		(at 187.452 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b730e93d-3f00-4e25-88df-dba4fb4e3c3d")
+	)
+	(text "Main Switch\n"
+		(exclude_from_sim no)
+		(at 240.03 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e80583c8-755d-46c4-9aca-0d4746e5c3cb")
+	)
 	(no_connect
 		(at 63.5 46.99)
 		(uuid "58d3b721-f3a7-4ed7-8d7d-96129ead8292")
@@ -1561,6 +1924,10 @@
 	(no_connect
 		(at 63.5 44.45)
 		(uuid "97e05049-ff3d-4f5e-b209-76a1ad1a433a")
+	)
+	(no_connect
+		(at 261.62 41.91)
+		(uuid "c84dc245-edbe-4747-a91b-9a37709fedcc")
 	)
 	(no_connect
 		(at 63.5 49.53)
@@ -5178,7 +5545,61 @@
 			"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"
-			"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"
+			"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"
+			"lP1/AABoRp6U/X8AAIhGnpT9fwAAyEaelP1/AAAIR56U/X8AACBHnpT9fwAAMEeelP1/AABIR56U"
+			"/X8AAGBHnpT9fwAAeEeelP1/AACgR56U/X8AALhHnpT9fwAA2EeelP1/AAD4jlSU/X8AAPBHnpT9"
+			"fwAAKEielP1/AABoSJ6U/X8AALBInpT9fwAAyEielP1/AADwSJ6U/X8AACBJnpT9fwAASEmelP1/"
+			"AABgSZ6U/X8AAHhJnpT9fwAAmEmelP1/AACwSZ6U/X8AANBJnpT9fwAA6EmelP1/AAAYSp6U/X8A"
+			"ADhKnpT9fwAAwI5UlP1/AABQSp6U/X8AAHBKnpT9fwAAkEqelP1/AAAAS56U/X8AAFhLnpT9fwAA"
+			"eEuelP1/AACYS56U/X8AALBLnpT9fwAA+EuelP1/AAAQTJ6U/X8AAEBMnpT9fwAAWEyelP1/AAB4"
+			"TJ6U/X8AAJBMnpT9fwAAGE2elP1/AAA4TZ6U/X8AAFhNnpT9fwAAgE2elP1/AACYTZ6U/X8AAMBN"
+			"npT9fwAA2E2elP1/AAD4TZ6U/X8AABhOnpT9fwAAOE6elP1/AAA471qU/X8AAFhOnpT9fwAAqE6e"
+			"lP1/AADQTp6U/X8AANiOVJT9fwAASI9UlP1/AABQT56U/X8AAHBPnpT9fwAAoE+elP1/AABAUJ6U"
+			"/X8AAGBQnpT9fwAAgFCelP1/AACgUJ6U/X8AAMBQnpT9fwAA2FCelP1/AAAAUZ6U/X8AABhRnpT9"
+			"fwAAMFGelP1/AABgUZ6U/X8AAIBRnpT9fwAAoFGelP1/AApNQUQuRjMyIFIwLnksIC1SMS54LCB7"
+			"MC41LCAwLCAwLCAwfS54LCBSMDsKRUxTRTsKU0xULkYzMiBSMS55LCBSMi54LCB7MCwgMCwgMCwg"
+			"MH0ueDsKU0dULkYzMiBSMS54LCBSMiwgezAsIDAsIDAsIDB9OwpUUlVOQy5VIFIxLnksIFIxOwpU"
+			"UlVOQy5VIFIxLngsIFIxOwpJMkYuVSBSMS55LCBSMTsKSTJGLlUgUjEueCwgUjE7CkFERC5GMzIg"
+			"UjEueCwgUjEsIC1SMS55OwpNVUwuRjMyIFIxLngsIFIxLCBjWzldOwpNQUQuRjMyIFIwLngsIFIx"
+			"LCB7MC41LCAwLCAwLCAwfSwgUjA7CkVORElGOwpBREQuRjMyIFIxLCBSMCwgey0xLCAtMCwgMCwg"
+			"MH0ueHh5eTsKTU9WLkYgcmVzdWx0LnBvc2l0aW9uLCBSMTsKTU9WLkYgUjAueHksIFIxOwpNT1Yu"
+			"RiByZXN1bHQuYXR0cmliWzBdLngsIHs2LCAwLCAwLCAwfTsKRU5ESUY7Ck1PVi5GIHJlc3VsdC5j"
+			"b2xvciwgdmVydGV4LmF0dHJpYlszXTsKTU9WLkYgcmVzdWx0LmF0dHJpYlswXS55LCBSMy54OwpN"
+			"T1YuRiByZXN1bHQudGV4Y29vcmRbMF0ueCwgLVIzOwpNT1YuRiByZXN1bHQudGV4Y29vcmRbMF0u"
+			"eSwgey0xLCAwLCAwLCAwfS54OwpFTFNFOwpTRVEuRiBSMS53LCB2ZXJ0ZXguYXR0cmliWzFdLngs"
+			"IHs2LCAwLCAwLCAwfS54OwpUUlVOQy5VLkNDIEhDLngsIFIxLnc7CklGIE5FLng7Ck1VTC5GMzIg"
+			"UjAsIHZlcnRleC5hdHRyaWJbMF0ueSwgY1sxXTsKTUFELkYzMiBSMCwgdmVydGV4LmF0dHJpYlsw"
+			"XS54LCBjWzBdLCBSMDsKTUFELkYzMiBSMCwgdmVydGV4LmF0dHJpYlswXS56LCBjWzJdLCBSMDsK"
+			"TUFELkYzMiBSMCwgdmVydGV4LmF0dHJpYlswXS53LCBjWzNdLCBSMDsKRFAyLkYzMiBSMS53LCAt"
+			"dmVydGV4LmF0dHJpYlsxXS56d3p3LCAtdmVydGV4LmF0dHJpYlsxXS56d3p3OwpSU1EuRjMyIFIx"
+			"LncsIFIxLnc7ClNFUS5GIFIyLnosIHZlcnRleC5hdHRyaWJbMV0ueSwgezAsIDAsIDAsIDB9Lng7"
+			"ClRSVU5DLlUuQ0MgSEMueCwgUjIuejsKQURELkYzMiBSMCwgUjAsIHsxLCAwLCAwLCAwfS54eHl5"
+			"OwpNT1YuRiBSMi54eSwgLXZlcnRleC5hdHRyaWJbMV0ueg=="
 		)
 	)
 	(global_label "RST"
@@ -5199,6 +5620,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IR-Led"
+		(shape input)
+		(at 207.01 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15c4a355-6de1-491e-8b16-8d9439f79a67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.3119 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5335,6 +5778,28 @@
 			)
 		)
 	)
+	(global_label "VBAT"
+		(shape input)
+		(at 207.01 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "843cdef4-50b1-4562-9b66-359d03b76990")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CS"
 		(shape input)
 		(at 113.03 39.37 0)
@@ -5467,6 +5932,28 @@
 			)
 		)
 	)
+	(global_label "VBAT"
+		(shape input)
+		(at 254 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ece48479-a005-41be-8620-8593f0d66ca6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape input)
 		(at 33.02 39.37 180)
@@ -5579,73 +6066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 208.28 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1425d3a9-113a-48a3-88dd-b199f2d1215c")
-		(property "Reference" "#PWR014"
-			(at 212.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 204.47 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 208.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c828efa7-5936-45a0-bab7-b5c19909648d")
-		)
-		(instances
-			(project "Night-Gogle"
-				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 46.99 90)
 		(unit 1)
@@ -5714,16 +6134,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 45.72 270)
+		(at 260.35 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3621c717-601d-4a87-b289-127fa7863068")
-		(property "Reference" "#PWR015"
-			(at 201.93 45.72 0)
+		(uuid "30a89231-359c-4fa4-884d-40d5ac092fce")
+		(property "Reference" "#PWR016"
+			(at 266.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +6152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 45.7199 90)
+			(at 264.16 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +6161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 45.72 0)
+			(at 260.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +6170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 45.72 0)
+			(at 260.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +6179,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 45.72 0)
+			(at 260.35 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed69861d-34ca-4068-8084-aae0a4bcc396")
+		)
+		(instances
+			(project ""
+				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3621c717-601d-4a87-b289-127fa7863068")
+		(property "Reference" "#PWR015"
+			(at 200.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,6 +6401,73 @@
 		)
 	)
 	(symbol
+		(lib_id "N-G:Pad-3.5mm")
+		(at 208.28 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae4d7b5-ceef-4006-9007-78f52e369555")
+		(property "Reference" "VIN1"
+			(at 212.09 56.5149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N-G_board:Pad-3.5mm"
+			(at 208.28 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20fbbaa1-eed3-40d5-bef4-39d2b0e6a352")
+		)
+		(instances
+			(project ""
+				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
+					(reference "VIN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "N-G:ESP32-CAM")
 		(at 48.26 49.53 0)
 		(unit 1)
@@ -5922,7 +6476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "646e824c-e2df-46fd-9efa-30fda28e4c87")
-		(property "Reference" "MCU"
+		(property "Reference" "MCU1"
 			(at 48.26 28.448 0)
 			(effects
 				(font
@@ -5938,7 +6492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-CAM:ESP32-CAM"
+		(property "Footprint" "N-G_board:ESP32-CAM"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -6128,7 +6682,7 @@
 		(instances
 			(project ""
 				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
-					(reference "MCU")
+					(reference "MCU1")
 					(unit 1)
 				)
 			)
@@ -6403,16 +6957,26 @@
 		)
 	)
 	(symbol
-		(lib_id "N-G:Pad-3.5mm")
-		(at 209.55 41.91 0)
+		(lib_id "power:+5V")
+		(at 261.62 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b7450f2a-f490-43b9-8b4c-23188fedf113")
-		(property "Reference" "VIN"
-			(at 209.296 39.624 0)
+		(fields_autoplaced yes)
+		(uuid "91c4618f-9c77-451f-9553-7a1972ab0a36")
+		(property "Reference" "#PWR014"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 265.43 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,17 +6984,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 213.36 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "N-G_board:Pad-3.5mm"
-			(at 209.55 43.688 0)
+		(property "Footprint" ""
+			(at 261.62 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6994,75 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 41.91 0)
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 261.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34d97c29-8364-48a5-a8c0-e0acbdf03fb9")
+		)
+		(instances
+			(project ""
+				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Pad-3.5mm_1")
+		(lib_id "N-G:Pad-3.5mm")
+		(at 208.28 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdd7ddaa-0637-47b7-a879-29ab82d0407f")
+		(property "Reference" "GND1"
+			(at 212.09 60.3249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N-G_board:Pad-3.5mm"
+			(at 208.28 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +7071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 41.91 0)
+			(at 208.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,13 +7079,157 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "fc845229-8004-450a-b28f-74b0439c25eb")
+		(pin "1"
+			(uuid "23cd732e-edc2-48af-b83f-351301391a55")
 		)
 		(instances
 			(project ""
 				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
-					(reference "VIN")
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N-G:B1408")
+		(at 257.81 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc83caf9-71cb-442c-abb9-2b97d15f8d3f")
+		(property "Reference" "SW2"
+			(at 257.2258 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 257.2258 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "N-G_board:255SB (B1408) - Vertical"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "tactile switch B1408"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c5b475b0-549d-40dd-8703-ddd20f009857")
+		)
+		(pin "1"
+			(uuid "84ca1fd1-2812-4865-ad9a-525715c20571")
+		)
+		(pin "2"
+			(uuid "2a87b76d-77e0-49e0-9784-024795d259ff")
+		)
+		(pin "4"
+			(uuid "8376b001-4567-45c7-8e2d-744aad209c33")
+		)
+		(pin "3"
+			(uuid "0cb45dd5-06f4-4542-9038-52c6084fa4b1")
+		)
+		(instances
+			(project ""
+				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc948f9b-7476-4e03-ae3e-56711a105a75")
+		(property "Reference" "#PWR017"
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9109dcfb-9c95-4056-adf1-0061a80f590f")
+		)
+		(instances
+			(project "Night-Gogle"
+				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6579,7 +7346,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "N-G_board:TD-03X"
 			(at 165.1 41.91 0)
 			(effects
 				(font
@@ -6623,15 +7390,16 @@
 	)
 	(symbol
 		(lib_id "N-G:Pad-3.5mm")
-		(at 209.55 45.72 0)
+		(at 208.28 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc8b88b7-4c7e-431a-b984-11b2bac6874e")
-		(property "Reference" "GND"
-			(at 209.042 48.006 0)
+		(fields_autoplaced yes)
+		(uuid "f85153c2-0784-4728-b2bb-201134eab46c")
+		(property "Reference" "IR-LED1"
+			(at 212.09 27.3049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,7 +7408,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 213.36 46.99 0)
+			(at 212.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +7417,7 @@
 			)
 		)
 		(property "Footprint" "N-G_board:Pad-3.5mm"
-			(at 209.55 47.498 0)
+			(at 208.28 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +7426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 45.72 0)
+			(at 208.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +7435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 45.72 0)
+			(at 208.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6675,13 +7443,13 @@
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "368b4f05-fd35-4bad-a57d-9fab12d7586b")
+		(pin "1"
+			(uuid "a12937c0-3d2d-42a4-9bbb-f02fb6a98f13")
 		)
 		(instances
-			(project "Night-Gogle"
+			(project ""
 				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
-					(reference "GND")
+					(reference "IR-LED1")
 					(unit 1)
 				)
 			)
