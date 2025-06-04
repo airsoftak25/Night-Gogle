@@ -801,8 +801,8 @@
 		)
 	)
 	(rectangle
-		(start 88.9 80.01)
-		(end 121.92 115.57)
+		(start 13.97 13.97)
+		(end 63.5 69.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -813,8 +813,8 @@
 		(uuid 5ef7cc00-bc90-4867-b57d-cf15252a8a9d)
 	)
 	(rectangle
-		(start 124.46 80.01)
-		(end 158.75 115.57)
+		(start 64.77 13.97)
+		(end 110.49 40.64)
 		(stroke
 			(width 0)
 			(type default)
@@ -824,9 +824,94 @@
 		)
 		(uuid f52f3d91-42d4-4c25-9472-32aa20b1a501)
 	)
+	(text "Pad for soldering\nGND + IR-Led singal via wires"
+		(exclude_from_sim no)
+		(at 65.532 38.354 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d6a6a09-4c84-4fac-a205-1a0e6e200f72")
+	)
+	(text "IR-Switch setup \nBased on Mosfet"
+		(exclude_from_sim no)
+		(at 14.732 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb79b2b7-ad55-48be-9d6e-4f509dc2c1c8")
+	)
+	(junction
+		(at 40.64 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a07852b1-74cc-4c81-b510-d67932db18ba")
+	)
+	(junction
+		(at 44.45 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3a9c315-be19-45c2-81cb-820fa332ce1e")
+	)
+	(wire
+		(pts
+			(xy 44.45 34.29) (xy 43.18 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e2fa5e-366b-42a6-afdf-65e6732c8e7b")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 40.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ad2577-a176-4fff-a2b2-10aa51cef067")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 44.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a2a50a-6420-40f7-851d-bdf226696ff2")
+	)
+	(wire
+		(pts
+			(xy 46.99 34.29) (xy 44.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdf7a77-a8c1-42af-b8de-ba4a9b696431")
+	)
+	(wire
+		(pts
+			(xy 40.64 43.18) (xy 40.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b7b2ed-e79b-4ac3-a0c4-11e190f60f10")
+	)
 	(global_label "IR-Led"
 		(shape input)
-		(at 142.24 91.44 180)
+		(at 85.09 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -836,7 +921,7 @@
 		)
 		(uuid "3d8e0533-5169-47e5-8a16-86826a5e2fd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.5419 91.44 0)
+			(at 75.3919 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +933,7 @@
 	)
 	(global_label "IR-Led"
 		(shape input)
-		(at 107.95 102.87 270)
+		(at 40.64 50.8 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -858,7 +943,7 @@
 		)
 		(uuid "572a3015-cce3-4501-b120-e68faf5cd392")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 112.5681 90)
+			(at 40.64 60.4981 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +955,7 @@
 	)
 	(global_label "IR-In"
 		(shape input)
-		(at 100.33 90.17 180)
+		(at 33.02 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -880,7 +965,7 @@
 		)
 		(uuid "f0944da3-ab91-462e-9f09-b0935710b1e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.1438 90.17 0)
+			(at 24.8338 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +977,7 @@
 	)
 	(symbol
 		(lib_id "N-G:Pad-3.5mm")
-		(at 143.51 96.52 0)
+		(at 86.36 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -900,7 +985,7 @@
 		(dnp no)
 		(uuid "34d1734d-e987-4925-ab63-975fa40d14b6")
 		(property "Reference" "GND2"
-			(at 152.146 96.52 0)
+			(at 94.996 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +994,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 143.51 99.06 90)
+			(at 86.36 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +1003,7 @@
 			)
 		)
 		(property "Footprint" "N-G_board:Pad-3.5mm"
-			(at 143.51 98.298 0)
+			(at 86.36 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +1012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 96.52 0)
+			(at 86.36 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +1021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 96.52 0)
+			(at 86.36 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +1043,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 99.06 180)
+		(at 40.64 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -967,7 +1052,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a205bcb-920e-4e47-b101-024855a6df28")
 		(property "Reference" "R1"
-			(at 110.49 97.7899 0)
+			(at 43.18 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +1061,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 110.49 100.3299 0)
+			(at 43.18 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +1070,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 109.728 99.06 90)
+			(at 42.418 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 99.06 0)
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1088,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 107.95 99.06 0)
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1113,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 90.17 90)
+		(at 46.99 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1037,7 +1122,7 @@
 		(fields_autoplaced yes)
 		(uuid "722397b8-6be9-4d45-a1fe-b5af49075de2")
 		(property "Reference" "#PWR010"
-			(at 116.84 90.17 0)
+			(at 53.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1131,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 90.1699 90)
+			(at 50.8 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 90.17 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 90.17 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 90.17 0)
+			(at 46.99 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,8 +1179,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 44.45 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ff5fb4c-b626-4610-b4b3-8cabbca90dec")
+		(property "Reference" "R6"
+			(at 46.99 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 46.99 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 46.228 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "321b9adb-8e59-4909-84a7-9ab91e87a5af")
+		)
+		(pin "2"
+			(uuid "aa2636c0-5da6-4af4-bda3-fbafa490163a")
+		)
+		(instances
+			(project "Night-Gogle"
+				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/12c38ee4-db65-45ed-b84c-8d335e2b0d61"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "N-G:Pad-3.5mm")
-		(at 143.51 91.44 0)
+		(at 86.36 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1103,7 +1258,7 @@
 		(dnp no)
 		(uuid "9bbd4ce4-d0de-4299-a8f3-5ecb588cd648")
 		(property "Reference" "IR-LED3"
-			(at 147.32 91.44 0)
+			(at 90.17 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1267,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 147.32 92.71 0)
+			(at 90.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +1276,7 @@
 			)
 		)
 		(property "Footprint" "N-G_board:Pad-3.5mm"
-			(at 143.51 93.218 0)
+			(at 86.36 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 91.44 0)
+			(at 86.36 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +1294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 91.44 0)
+			(at 86.36 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +1316,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 96.52 270)
+		(at 85.09 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1169,7 +1324,7 @@
 		(dnp no)
 		(uuid "a596b5ee-dadb-41b9-88db-f1cbde7c4ce5")
 		(property "Reference" "#PWR018"
-			(at 135.89 96.52 0)
+			(at 78.74 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1333,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 96.52 90)
+			(at 80.01 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 96.52 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 96.52 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 96.52 0)
+			(at 85.09 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1381,7 @@
 	)
 	(symbol
 		(lib_id "N-G:IRL540N")
-		(at 105.41 90.17 0)
+		(at 38.1 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1235,7 +1390,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae8f57e9-5951-4872-b8f2-aca29d105221")
 		(property "Reference" "U1"
-			(at 105.3272 83.82 0)
+			(at 38.0172 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1398,7 @@
 			)
 		)
 		(property "Value" "IRL540N"
-			(at 105.3272 86.36 0)
+			(at 38.0172 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1406,7 @@
 			)
 		)
 		(property "Footprint" "N-G_board:TO254P1524X483-4N"
-			(at 104.902 90.17 0)
+			(at 37.592 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 90.17 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 90.17 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1434,7 @@
 			)
 		)
 		(property "MF" "Infineon Technologies"
-			(at 106.172 102.108 0)
+			(at 38.862 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1444,7 @@
 			)
 		)
 		(property "Description_1" "N-Channel 100 V 36A (Tc) 3.8W (Ta), 140W (Tc) Surface Mount D2PAK"
-			(at 105.41 103.378 0)
+			(at 38.1 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1454,7 @@
 			)
 		)
 		(property "Package" "TO-220 Infineon"
-			(at 104.902 90.17 0)
+			(at 37.592 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1464,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 105.41 90.17 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1474,7 @@
 			)
 		)
 		(property "AUTOR" "Tux"
-			(at 105.41 90.17 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1484,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRL540N/Infineon/view-part/?ref=snap"
-			(at 105.41 103.378 0)
+			(at 38.1 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1494,7 @@
 			)
 		)
 		(property "MP" "IRL540N"
-			(at 105.41 90.17 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1504,7 @@
 			)
 		)
 		(property "REICHELT" "IRL 540N"
-			(at 105.41 90.17 0)
+			(at 38.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1514,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 104.648 90.17 0)
+			(at 37.338 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1524,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/IRL540N/Infineon/view-part/?ref=eda"
-			(at 105.41 103.378 0)
+			(at 38.1 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
