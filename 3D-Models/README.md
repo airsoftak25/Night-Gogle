@@ -1,2 +1,2 @@
 # Description
-This folder will contains IPT / F3D files
+This folder contains IPT and STL files of all versions
