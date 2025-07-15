@@ -4299,7 +4299,7 @@
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(uuid "3a556b30-a837-4456-8aa7-3987969b0f75")
+			(uuid "764cd94f-c0ff-4a6c-b0fd-bad6c9c6e83a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl"

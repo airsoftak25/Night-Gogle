@@ -21,6 +21,8 @@ TFT_eSPI tft = TFT_eSPI();  // GC9A01 display driver
 #define HREF_GPIO_NUM     23
 #define PCLK_GPIO_NUM     22
 
+#define LED_BUILTIN 33  // Vestavěná LED na ESP32-CAM (většinou na GPIO 33)
+
 // === CONFIGURATION ===
 const int CAMERA_XCLK_FREQ_HZ = 20000000;
 const framesize_t CAMERA_FRAME_SIZE = FRAMESIZE_240X240;   // 240x240 = no scaling
@@ -34,6 +36,9 @@ const int DISPLAY_ROTATION = 0;
 void setup() {
   Serial.begin(115200);
   Serial.println("Starting...");
+
+  pinMode(12, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
 
   camera_config_t config;
   config.ledc_channel = LEDC_CHANNEL_0;
@@ -70,7 +75,7 @@ void setup() {
   sensor_t * s = esp_camera_sensor_get();
   // Set your desired effect here:
   // 0 - No Effect, 1 - Negative, 2 - Grayscale, 3 - Red Tint, 4 - Green Tint, 5 - Blue Tint, 6 - Sepia
-  s->set_special_effect(s, 4);
+  s->set_special_effect(s, 2);
   // ----------------------------------------------------
 
   tft.init();

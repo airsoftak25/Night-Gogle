@@ -1716,8 +1716,16 @@
 		(uuid "e80583c8-755d-46c4-9aca-0d4746e5c3cb")
 	)
 	(no_connect
+		(at 63.5 52.07)
+		(uuid "547a50ea-f173-4337-9083-73f27f169e09")
+	)
+	(no_connect
 		(at 63.5 46.99)
 		(uuid "58d3b721-f3a7-4ed7-8d7d-96129ead8292")
+	)
+	(no_connect
+		(at 63.5 41.91)
+		(uuid "65c25265-7aa1-499a-8c0c-20329c8f5a23")
 	)
 	(no_connect
 		(at 63.5 44.45)
@@ -1819,7 +1827,25 @@
 			"cSljTG2xamu1L7p75D/HqARTTElI6lf56PPjt+cGi1dVkXmhYS1BjCl+LuPsfxjr+JQpplKM40l3"
 			"sW5P2eOB8HhTKYsxRcrTeGuIw9SYYiq18LMMc/HqqvChfmpiTAU1Wt74HA9TTKWc631PnC2aVuvT"
 			"632qVMeYImT50Rp1FoCioChL7gN/kXJg298MIWwvgyGCKabihCmmGD8KWJfBEPG/x+CREzAzIv8A"
-			"AAAASUVORK5CYII="
+			"AAAASUVORK5CYIIAAAAAAAAAAA8AAAAAAAAAAGVsaWdodAAAAAAAAAAAAAAAAAAAAAAADwAAAAAA"
+			"AAAAZWxpZ2h0IE91dGxpbmUAAAAAAAAAAAAPAAAAAAAAAABpYW1vbmRzAAAAAAAAAAAAAAAAAAAA"
+			"AA8AAAAAAAAAAKLuU3kCAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAdWJhaQAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAPAAAAAAAAAAB1YmFpIExpZ2h0AAAAAAAAAAAAAAAAAA8AAAAAAAAAAHViYWkgTWVk"
+			"aXVtAAAAAAAAAAAAAAAADwAAAAAAAAAAdXRjaDgwMSBSbSBCVAAAAAAAAAAAAAAPAAAAAAAAAAB1"
+			"dGNoODAxIFhCZCBCVAAAAAAAAAAAAA8AAAAAAAAAAHluYWxpZ2h0AAAAAAAAAAAAAAAAAAAADwAA"
+			"AAAAAAAAYnJpbWEAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAACo7lN5AgAAAAAAAAAAAAAAAAAA"
+			"AAAAAA8AAAAAAAAAAGxlcGhhbnQAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAbWJhc3N5IEJUAAAA"
+			"AAAAAAAAAAAAAAAPAAAAAAAAAABuZ3JhdmVycyBNVAAAAAAAAAAAAAAAAA8AAAAAAAAAAKTuU3kC"
+			"AAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAcmFzIEJvbGQgSVRDAAAAAAAAAAAAAAAPAAAAAAAA"
+			"AAByYXMgRGVtaSBJVEMAAAAAAAAAAAAAAA8AAAAAAAAAAHJhcyBMaWdodCBJVEMAAAAAAAAAAAAA"
+			"DwAAAAAAAAAAcmFzIE1lZGl1bSBJVEMAAAAAAAAAAAAPAAAAAAAAAAB1cm9Sb21hbgAAAAAAAAAA"
+			"AAAAAAAAAA8AAAAAAAAAAHhvdGMzNTAgQmQgQlQAAAAAAAAAAAAADwAAAAAAAAAAou5TeQIAAAAA"
+			"AAAAAAAAAAAAAAAAAAAPAAAAAAAAAABlbGl4IFRpdGxpbmcAAAAAAAAAAAAAAA8AAAAAAAAAAGly"
+			"ZWZseQAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAo+5TeQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA"
+			"AAAAAABvcnRlAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAHJhbmsgUnVlaGwgQ0xNAAAAAAAA"
+			"AAAADwAAAAAAAAAAoO5TeQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAACg7lN5AgAAAAAAAAAA"
+			"AAAAAAAAAAAAAA8AAAAAAAAAAKbuU3kCAAAAAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAApO5TeQIA"
+			"AAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -5578,7 +5604,25 @@
 			"AACwmro5AGAFgFCiV8RHAgAAAwAAAAAAAADA8lXERwIAAAEAAAAAAAAAAAAAAAAAAACzmqc5AGEF"
 			"gAAAAAAAAAAAAwAAAAAAAABwo1fERwIAAAEAAAAAAAAAAAAAAAAAAAC2mqA5AGIFgEM6L1dJTkRP"
 			"V1MvZm9udHNcc2VndWlsaS50dGYAAAAAAAAAAAAAAAC5mq05AGMFgAAAAAAAAAAACAAAAAAAAAAw"
-			"gj/ERwIAAAEAAAAAAAAAAAAAAAAAAAC8mq45AGQFgEM6Lw=="
+			"gj/ERwIAAAEAAAAAAAAAAAAAAAAAAAC8mq45AGQFgEM6LwBIAE8AawA1AGwAMAB0AGwAeABFAHIA"
+			"bwByAHoAZQBGAHUAaQByAGQANQBvAEQAbQBFAEsAWQA1AFEAWgBHAHQARgBRAEkAUAAwAEYAUwAr"
+			"AGEARABEAFkAOAA5AHQAZwAwAEEANgBwAHYAcQBFADgAbQBZAHoAcgBTAGQATwAzAGQAVwAxADgA"
+			"ZQA5AEMAWQBnAG0AawBoAGQAZAAxAEEATQAyAFoASQBmAHoAeQArAFkAdQBBAFIAMQBHAHoAcAAz"
+			"AHAAbQB0AFAANgB4AEMATQBQAHUAMABWAEgATQA2AEkAWQBhAFcAWABIAEIAWgBLAGcAZQBzAFEA"
+			"SgBSAFAAZgBTAGgAYwB2AFgAOQBZAEMAQQBnAFEAdABEAE0ATgAwAHQAYwBpAFkAVQBrAHYARwBh"
+			"AEIATQBRAEIAUQBQAGgAUQA0AFIAQQA5AGUAUABMAFEAZQBIAEgARQB6AHgAQwBnAGsAbQBwAGEA"
+			"TwBwAG8AdQBRAG8ANgBBAGsAcgA3AGQARQBFAHMAcABjAEgASgBEAHcAdwBzAHYAWABkAGsATABw"
+			"AHcATwBMAG0ARQBKAGoAdwBLAFEAUwBoAFUASgBPAFcAaABnAFUASgBRAHAAVABDAFIARgBpAE4A"
+			"TQBVAGEASABWAEIAMQA3AGUAMQBMAHUANQBZAEsAVQBNAGQAUABIAGEAOQBwAHIASgByAEkAagBt"
+			"AG4AdABLAEcAMABrAHQAbQB6AGYASwBsAEIAZwBwAHEAdwBDAHUARQBOAFEARgBGAFYARwBvAFYA"
+			"RABXAGwAQwBCAGcAKwAzADUAZwBtAEcAWgBuAHUAaQAwAEYATQBTADEAMABwAEEATAAzAGUATwA5"
+			"ACsAVABhAFAASgBUAE0AeABuAHMAYwA3ADUAUwB5AEMAUgAyAGYATAA0AFkAKwBBAFUAawBNAFEA"
+			"UgBuAFMAbwBSAFYATABXADIAbgBOAHAAMwBXAEsATgBVAFMAUgA5AEoATgBhAGUAcgBIAFYASwB4"
+			"AFQAVwAvADcATQB3AGkAQwByADMALwBsAFMANgBRAHkARgBvADkAUwBSAEoASABQADEATQAwAGYA"
+			"ZgBqADgARQBsAFUAZQBmAGYAawB4AFEAawBBAGkATQBlAE8AMwBjAGgAWgBlAEIAagBJAEgAUwAv"
+			"AHEAUgBvAEkAcQA4AEYAUgBQAHgAQwA3AGgAegB3AHIASQBGAEUAYQBLAHEAaABNAEoASwBZAGMA"
+			"QwBBAEEAcABMADYAcQBTACsAUwBIAEYARwBEAEQAUwBsAEMAcgBHAFMAQQBZAHYAdABEAGIAMQBM"
+			"AEEAMABXAGQAVQBNAGEAagBEAHYAbgBhAHcAaQB6AFMAVQ=="
 		)
 	)
 	(global_label "RST"
@@ -5930,73 +5974,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0604900a-dbba-4eab-951c-1a184df45262")
-		(property "Reference" "#PWR03"
-			(at 69.85 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b2e5950-0663-46f7-a1be-4462ffa2b75d")
-		)
-		(instances
-			(project "Night-Gogle"
-				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
-					(reference "#PWR03")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6685,73 +6662,6 @@
 			(project ""
 				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89b6cf6c-7e8b-4092-a477-7b710b838a9e")
-		(property "Reference" "#PWR04"
-			(at 69.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aea140ee-9ad1-4452-acd0-954fa660b266")
-		)
-		(instances
-			(project "Night-Gogle"
-				(path "/46563032-f0f5-44cd-9207-962e2cbfd880/d9bf5b03-4189-47e5-8471-d01fac61f3a8"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
